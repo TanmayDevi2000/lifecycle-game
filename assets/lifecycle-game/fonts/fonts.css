@@ -1,0 +1,59 @@
+/*
+ * Self-hosted type, all SIL OFL and all from Ek Type: Baloo 2 for the game's
+ * own titles (rounded and heavy, the way a printed board game's title is set),
+ * Rozha One for section headings, and Mukta — the printed board's own text
+ * face — for everything else.
+ *
+ * Served from public/, so Vite copies it verbatim and never rewrites these
+ * URLs. They are relative to this file, which keeps them correct at any
+ * subpath. Re-fetch the files with scripts/fetch_fonts.sh.
+ */
+@font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('Baloo2-700.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('Baloo2-800.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Rozha One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('RozhaOne-400.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('Mukta-400.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('Mukta-600.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('Mukta-700.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('Mukta-800.woff2') format('woff2');
+}
